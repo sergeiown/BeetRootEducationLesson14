@@ -5,7 +5,12 @@
 }
 
 body {
-  background: #ffffff;
+  background-color: #ffffff;
+  background-image: url("../img/bg-picture.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right 150px;
+  background-size: 760px;
   user-select: none;
 }
 
@@ -49,6 +54,10 @@ header li:nth-child(1) {
   font-size: 22px;
   line-height: 18px;
   letter-spacing: 0.04em;
+}
+
+section {
+  display: grid;
 }
 
 h2 {
