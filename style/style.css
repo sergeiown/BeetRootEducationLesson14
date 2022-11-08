@@ -15,24 +15,35 @@ body {
 }
 
 .wrapper {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0px auto;
 }
 
-header {
-  margin-bottom: 70px;
+* a {
+  text-decoration: none;
+  color: black;
 }
 
-header > ul {
+/* ⇓ ⇓ ⇓ ⇓ ⇓ header ⇓ ⇓ ⇓ ⇓ ⇓ */
+header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  padding: 16px 0;
+  background-color: #ffffff;
+  opacity: 0.95;
+}
+
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: nowrap;
-  padding: 0;
+  width: 361px;
 }
 
-header li {
-  list-style: none;
+header a,
+span {
   font-family: "Staatliches";
   font-weight: 400;
   font-size: 22px;
@@ -40,24 +51,56 @@ header li {
   letter-spacing: 0.03em;
 }
 
-header img {
-  display: inline-block;
-  width: 238px;
-  height: 54px;
-  margin-left: 601px;
-}
-
-header li:nth-child(1) {
-  display: inline-block;
+header a:nth-child(1) {
   font-family: "Tourney";
   font-weight: 600;
   font-size: 22px;
   line-height: 18px;
   letter-spacing: 0.04em;
+  padding-right: 50px;
 }
 
+header img {
+  display: inline-block;
+  width: 238px;
+  height: 54px;
+}
+/* ⇧ ⇧ ⇧ ⇧ ⇧ header ⇧ ⇧ ⇧ ⇧ ⇧ */
+
+/* ⇓ ⇓ ⇓ ⇓ ⇓ section ⇓ ⇓ ⇓ ⇓ ⇓ */
 section {
-  display: grid;
+  display: block;
+  margin-top: 170px;
+  height: 3600px;
+}
+
+article {
+  display: block;
+  max-width: 785px;
+  float: right;
+}
+
+aside {
+  display: block;
+  max-width: fit-content;
+  position: sticky;
+  top: 80px;
+}
+
+aside ul {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+aside li {
+  display: block;
+  border-bottom: solid 1px #bdbdbd;
+  text-transform: uppercase;
+  height: 58px;
+  padding-bottom: 10px;
+  margin: 0 0 69px 0;
 }
 
 h2 {
@@ -66,6 +109,8 @@ h2 {
   font-size: 36px;
   line-height: 48px;
   letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 20px 0 40px 0;
 }
 
 h2 > span {
@@ -83,10 +128,10 @@ p {
   font-weight: 400;
   font-size: 28px;
   line-height: 48px;
-  margin-top: 40px;
   margin-bottom: 70px;
 }
 
 p span {
   background-color: #dadada;
 }
+/* ⇧ ⇧ ⇧ ⇧ ⇧ section ⇧ ⇧ ⇧ ⇧ ⇧ */
