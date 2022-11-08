@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Staatliches&family=Tourney:wght@600&display=swap");
+
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background: #ffffff;
+  user-select: none;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+header {
+  margin-bottom: 70px;
+}
+
+header > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 0;
+}
+
+header li {
+  list-style: none;
+  font-family: "Staatliches";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+}
+
+header img {
+  display: inline-block;
+  width: 238px;
+  height: 54px;
+  margin-left: 601px;
+}
+
+header li:nth-child(1) {
+  display: inline-block;
+  font-family: "Tourney";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+}
+
+h2 {
+  font-family: "Francois One";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+}
+
+h2 > span {
+  font-family: "Farro";
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  vertical-align: top;
+}
+
+p {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+p span {
+  background-color: #dadada;
+}
