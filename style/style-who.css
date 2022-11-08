@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:wght@500&family=Staatliches&family=Tourney:wght@600&display=swap");
+
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  background-image: url("../img/bg-picture.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right 150px;
+  background-size: 760px;
+  user-select: none;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+* a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ⇓ ⇓ ⇓ ⇓ ⇓ header ⇓ ⇓ ⇓ ⇓ ⇓ */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 361px;
+}
+
+header a,
+span {
+  font-family: "Staatliches";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+}
+
+header a:nth-child(1) {
+  font-family: "Tourney";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  padding-right: 50px;
+  text-transform: uppercase;
+}
+
+header img {
+  display: inline-block;
+  width: 238px;
+  height: 54px;
+}
+/* ⇧ ⇧ ⇧ ⇧ ⇧ header ⇧ ⇧ ⇧ ⇧ ⇧ */
+
+/* ⇓ ⇓ ⇓ ⇓ ⇓ title ⇓ ⇓ ⇓ ⇓ ⇓ */
+article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  width: 326px;
+  height: 48px;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+/* ⇧ ⇧ ⇧ ⇧ ⇧ title ⇧ ⇧ ⇧ ⇧ ⇧ */
