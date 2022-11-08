@@ -11,10 +11,12 @@ body {
   background-attachment: fixed;
   background-position: right 150px;
   background-size: 760px;
+  width: 1200px;
+  margin: 0px auto;
   user-select: none;
 }
 
-.wrapper {
+main {
   width: 1200px;
   margin: 0px auto;
 }
