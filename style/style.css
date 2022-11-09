@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Staatliches&family=Tourney:wght@600&display=swap");
 
-* {
-  font-family: sans-serif;
-}
-
 body {
   background-color: #ffffff;
   background-image: url("../img/bg-picture.png");
@@ -46,7 +42,7 @@ header nav {
 
 header a,
 span {
-  font-family: "Staatliches";
+  font-family: "Staatliches", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
@@ -54,7 +50,7 @@ span {
 }
 
 header a:nth-child(1) {
-  font-family: "Tourney";
+  font-family: "Tourney", sans-serif;
   font-weight: 600;
   font-size: 22px;
   line-height: 18px;
@@ -107,7 +103,7 @@ aside li {
 }
 
 h2 {
-  font-family: "Francois One";
+  font-family: "Francois One", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 48px;
@@ -117,7 +113,7 @@ h2 {
 }
 
 h2 > span {
-  font-family: "Farro";
+  font-family: "Farro", sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 30px;
@@ -127,7 +123,7 @@ h2 > span {
 }
 
 p {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 28px;
   line-height: 48px;
