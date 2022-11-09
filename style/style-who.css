@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:wght@500&family=Staatliches&family=Tourney:wght@600&display=swap");
 
-* {
-  font-family: sans-serif;
-}
-
 body {
   background-color: #ffffff;
   user-select: none;
@@ -35,7 +31,7 @@ header nav {
 
 header a,
 span {
-  font-family: "Staatliches";
+  font-family: "Staatliches", sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
@@ -43,7 +39,7 @@ span {
 }
 
 header a:nth-child(1) {
-  font-family: "Tourney";
+  font-family: "Tourney", sans-serif;
   font-weight: 600;
   font-size: 22px;
   line-height: 18px;
@@ -70,7 +66,7 @@ article {
 }
 
 h2 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 36px;
   line-height: 48px;
@@ -95,29 +91,28 @@ ul li {
   perspective: 540px;
 }
 
-.rotating-card {
+li > div {
   position: relative;
   width: 100%;
   height: 100%;
   transition: 0.8s;
   perspective-origin: left;
   transform-style: preserve-3d;
-  /* transform-style: flat; */
 }
 
-.white-card,
-.black-card {
+li > div div:last-child,
+li > div div:first-child {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
 }
 
-.white-card {
+li > div div:last-child {
   transform: rotateY(180deg);
 }
 
-ul li:hover .rotating-card {
+li:hover > div {
   transform: rotateY(180deg);
   cursor: pointer;
 }
