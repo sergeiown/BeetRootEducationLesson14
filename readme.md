@@ -2,25 +2,21 @@
 
 _LMS Beetroot Academy progress_
 
-## ДОМАШНЄ ЗАВДАННЯ
+### TASKS
 
-**Обов'язково:**
+**Required:**
 
-- Зверстати сторінку [Documentation.](https://www.figma.com/file/FP2fHfIElPk4J42DYQGuMw/position-transform)
+- Make a page [Documentation.](https://www.figma.com/file/FP2fHfIElPk4J42DYQGuMw/position-transform)
 
-  ТЗ:
+The page header should be fixed to the top
+The sidebar should stick to the top when scrolling (position sticky)
+The pattern (background image) should also stay in place (sticky) when scrolling this section
 
-  Header сторінки має бути зафіксований до верху
-  Сайдбар має прилипати до верху при скролі (position sticky)
-  Патерн (фоновий малюнок) також має лишатись на місці (прилипати) при скролі цієї секції
+**Extra:**
 
-**Екстра:**
+- Make a page [Who's using?](https://www.figma.com/file/FP2fHfIElPk4J42DYQGuMw/position-transform)
 
-- Зверстати сторінку [Who's using?](https://www.figma.com/file/FP2fHfIElPk4J42DYQGuMw/position-transform)
-
-  ТЗ:
-
-  При ховері карточки має відбуватись ефект перевертання її і зміна сірої сторони на чорну з заміною кольору логотипу — [як у постланні](https://www.w3schools.com/howto/howto_css_flip_card.asp)
+When hovering the card, the effect of turning it over and changing the gray side to black with the logo color changing should occur - [as in the post](https://www.w3schools.com/howto/howto_css_flip_card.asp)
 
 ![image](https://user-images.githubusercontent.com/112722061/222780959-63fac559-ab33-497b-8721-3f7a14b20b93.png)
 ![image](https://user-images.githubusercontent.com/112722061/222781080-7aab5b9f-02e5-4aad-80e3-a622875cfc2f.png)
